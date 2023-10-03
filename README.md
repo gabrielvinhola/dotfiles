@@ -9,3 +9,4 @@
 6. choco install mingw
 7. choco install ripgrep
 8. choco install make
+9. choco install nodejs.install
