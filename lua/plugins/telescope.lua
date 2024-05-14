@@ -11,6 +11,7 @@ return  {
 		}
 	}
 	vim.keymap.set('n', ';f', builtin.find_files, {})
+	vim.keymap.set('n', ';e', builtin.diagnostics, {})
 	vim.keymap.set('n', ';r', builtin.live_grep, {})
 	end
 }

@@ -146,6 +146,7 @@ lspconfig.astro.setup(config{})
 lspconfig.graphql.setup(config{})
 lspconfig.bashls.setup(config{})
 lspconfig.svelte.setup(config{})
+lspconfig.gopls.setup(config{})
 
 vim.api.nvim_create_autocmd({ 'BufNewFile', 'BufRead'}, { pattern = "*.bicep", command = "set filetype=bicep"})
 lspconfig.bicep.setup(config {})

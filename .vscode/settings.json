@@ -1,0 +1,10 @@
+{
+    "cSpell.language": "en,lorem",
+    "cSpell.enableFiletypes": [
+        "bicep",
+        "dockerfile",
+        "go.mod",
+        "go.sum",
+        "go.work"
+    ]
+}
